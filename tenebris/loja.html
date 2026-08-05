@@ -1,0 +1,69 @@
+<!-- ===== LOJA ===== -->
+<section id="page-loja" class="content-page" style="display:none;">
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="header-logo" onclick="navegarPara('home')">
+                <span class="logo-icon">⚔️</span>
+                <span>TENEBRIS</span>
+            </div>
+            
+            <nav class="main-nav">
+                <a class="nav-link" data-page="home" onclick="navegarPara('home')">🏠 Início</a>
+                <a class="nav-link" data-page="ficha" onclick="navegarPara('ficha')">📋 Ficha</a>
+                <a class="nav-link active" data-page="loja" onclick="navegarPara('loja')">🛒 Loja</a>
+                <a class="nav-link" data-page="comunidade" onclick="navegarPara('comunidade')">💬 Comunidade</a>
+            </nav>
+            
+            <div class="header-user">
+                <span class="user-avatar">👤</span>
+                <span id="headerUserDisplay">Admin</span>
+                <button class="btn-logout" onclick="logout()">Sair</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO -->
+    <div class="main-content">
+        <div class="loja-wrapper">
+            <h2>🛒 Loja Oficial</h2>
+            <p class="loja-subtitle">Equipamentos, livros e acessórios para suas aventuras</p>
+            
+            <div class="loja-grid">
+                <div class="loja-item">
+                    <div class="loja-item-image">📖</div>
+                    <h4>Livro do Mestre</h4>
+                    <p>Guia completo para mestres de jogo</p>
+                    <span class="loja-preco">R$ 179,90</span>
+                    <button class="btn-small">Comprar</button>
+                </div>
+                <div class="loja-item">
+                    <div class="loja-item-image">🎯</div>
+                    <h4>Escudo do Mestre</h4>
+                    <p>Escudo com tabelas e regras rápidas</p>
+                    <span class="loja-preco">R$ 129,90</span>
+                    <button class="btn-small">Comprar</button>
+                </div>
+                <div class="loja-item">
+                    <div class="loja-item-image">🧙</div>
+                    <h4>Miniaturas - Pack 1</h4>
+                    <p>10 miniaturas de personagens</p>
+                    <span class="loja-preco">R$ 199,90</span>
+                    <button class="btn-small">Comprar</button>
+                </div>
+                <div class="loja-item">
+                    <div class="loja-item-image">🎲</div>
+                    <h4>Dados de Metal</h4>
+                    <p>Kit premium com estojo</p>
+                    <span class="loja-preco">R$ 149,90</span>
+                    <button class="btn-small">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <p>© 2026 TENEBRIS - Todos os direitos reservados</p>
+    </footer>
+</section>
